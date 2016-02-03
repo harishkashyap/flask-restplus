@@ -7,7 +7,7 @@
     <script type="text/javascript">
         $(function () {
             window.swaggerUi = new SwaggerUi({
-                url: "{{ specs_url }}",
+                url: "https://stage.advana.io/swagger.json",
                 validatorUrl: "{{ config.SWAGGER_VALIDATOR_URL }}" || null,
                 dom_id: "swagger-ui-container",
                 supportedSubmitMethods: ['get', 'post', 'put', 'delete', 'patch'],
